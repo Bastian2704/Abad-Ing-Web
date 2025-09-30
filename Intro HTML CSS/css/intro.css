@@ -1,0 +1,140 @@
+body {
+    background-color: #1dbb6c;
+}
+
+header {
+    max-width: 1290px;
+    max-height: auto;
+    border: 1px solid red;
+    margin: 0 auto;
+
+}
+
+.logo {
+    width: 250px;
+    height: 150px;
+}
+
+#search {
+    max-width: 100%;
+    border-radius: 20px;
+    height: 30px;
+    border: 1px dashed #050;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1290px;
+    height: auto;
+    border: 1px solid rebeccapurple;
+    margin: 0 auto;
+}
+
+.imageContainer {
+    display: flex;
+}
+
+.formContainer {
+    display: flex;
+
+}
+
+.link {
+    display: block;
+    margin-bottom: 10;
+}
+
+footer {
+    max-width: 1290px;
+    height: 250px;
+    border: 1px solid rebeccapurple;
+    margin: 0 auto;
+}
+
+.login-image {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.imageContainer {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.loginImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.formContainer {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formContainer input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formContainer button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formContainer button:hover {
+    background-color: #0056b3;
+}
+
+.formContainer .link {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.formContainer .link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+    }
+
+    .imageContainer,
+    .formContainer {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .loginImage {
+        max-width: 80%;
+    }
+}
