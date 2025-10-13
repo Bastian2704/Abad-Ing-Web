@@ -16,7 +16,6 @@ html {
   width: 100%;
 }
 
-/* 🔹 Panel izquierdo */
 .left-panel {
   flex: 1;
   background-color: #005BE0;
@@ -31,7 +30,6 @@ html {
   font-weight: bold;
 }
 
-/* 🔹 Panel derecho */
 .right-panel {
   flex: 1;
   background-color: #F8F8F8;
@@ -41,7 +39,6 @@ html {
   padding: 60px 80px;
 }
 
-/* 🔹 Texto superior */
 .header-text {
   display: flex;
   align-items:center;
@@ -49,26 +46,24 @@ html {
 }
 
 .lets {
-  font-size: 1.8rem;
+  font-size: 30px;
   color: #333;
 }
 
 .sign-in {
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
   color: #000000;
 }
 
-/* 🔹 Subtítulo */
 .subtitle {
   margin-top: 10px;
   margin-bottom: 40px;
   color: #666;
-  font-size: 1rem;
+  font-size: 17px;
   line-height: 1.5;
 }
 
-/* 🔹 Formulario */
 .form-container {
   display: flex;
   flex-direction: column;
@@ -76,7 +71,7 @@ html {
 }
 
 .form-container label {
-  font-size: 0.9rem;
+  font-size: 15px;
   color: #333;
   font-weight: 500;
 }
@@ -92,7 +87,7 @@ html {
 
 .forgot {
   align-self: flex-end;
-  font-size: 0.9rem;
+  font-size: 15px;
   color: #005BE0;
   text-decoration: none;
   margin-bottom: 20px;
@@ -166,6 +161,6 @@ html {
   }
 
   .signup-text {
-    font-size: 0.9rem;
+    font-size: 15px;
   }
 }
